@@ -1,3 +1,15 @@
+/*
+    tree!{
+        sum => {
+            mul => { a, c },
+            b
+        }
+    };
+    ******
+    sum(mul(a, c), b)
+*/
+
+
 #[derive(Debug)]
 struct My {
     a: i32,
